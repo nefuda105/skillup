@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+	text-align: center;
+}
+
+.headline {
+	line-height: 70px;
+	float: left;
+	width: 1024px;
+	height: 70px;
+
+}
+
+.logo {
+	width: 150px;
+	height: 65px;
+	float: left;
+}
+
+.nav-list {
+	line-height: 70px;
+	float: right;
+	margin-left: 30px;
+	list-style: none;
+}
+
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+	font-size: 16px;
+	color: #FAFAFA;
+}
+
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.main-visual-title {
+	font-size: 64px;
+	color: #FAFAFA;
+	padding-top: 200px;
+	text-align: center;
+}
+
+.main-visual-text {
+	font-size: 20px;
+	color: #FAFAFA;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.backgray {
+	width: 100%;
+	padding: 90px 0;
+	text-align: center;
+	background-color: #ECEFF1;
+}
+
+.portfolio {
+	display: inline-block;
+	width: 920px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio-title {
+	font-size: 32px;
+	color: #000000;
+	position: relative;
+    display: inline-block;
+	margin-bottom: 1em;
+}
+
+.portfolio-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #EC715F;/*線の色*/
+}
+
+.portfolio-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 30px
+}
+
+.img-box {
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+
+.img-box:nth-child(1), :nth-child(2){
+  margin: 0 10px 0 0;
+}
+
+.img-box:nth-child(3){
+  margin: 0 0 10px 0 ;
+}
+
+.img-box:nth-child(4), :nth-child(5){
+  margin: 0 10px 0 0;
+}
+
+.img-box:nth-child(1) {
+	background-image: url(img/sketch.jpg);
+}
+.img-box:nth-child(2) {
+	background-image: url(img/websuku.png);
+}
+.img-box:nth-child(3) {
+	background-image: url(img/write.jpg);
+}
+.img-box:nth-child(4) {
+	background-image: url(img/webcamp.png);
+}
+.img-box:nth-child(5) {
+	background-image: url(img/talk.jpg);
+}
+.img-box:nth-child(6) {
+	background-image: url(img/webcamp-mother.png);
+}
+
+.backwhite {
+	width: 100%;
+	margin: 90px 0;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+.feature {
+	width: 990px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.feature-title {
+	font-size: 32px;
+	color: #000000;
+	position: relative;
+    display: inline-block;
+	margin-bottom: 1em;
+}
+
+.feature-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #EC715F;/*線の色*/
+}
+
+.feature-text {
+	font-size: 16px;
+	padding-bottom: 30px
+}
+
+.strength1 {
+	display: inline-block;
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+}
+
+.strength1>i,.strength2>i,.strength3>i {
+	display: inline-block;
+	font-size: 60px;
+}
+
+.strength-title {
+	text-align: center;
+	margin: 10px auto;
+}
+
+.strength-text {
+	display: inline-block;
+	text-align: left;
+}
+
+.strength2 {
+	display: inline-block;
+	width: 320px;
+	margin-right: 10px;
+	float: left;
+}
+.strength3 {
+	display: inline-block;
+	width: 320px;
+	float: left;
+}
+
+.profile {
+	display: inline-block;
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile-title {
+	font-size: 32px;
+	color: #000000;
+	position: relative;
+    display: inline-block;
+	margin-bottom: 1em;
+}
+
+.profile-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #EC715F;/*線の色*/
+}
+
+.profile-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 30px
+}
+
+.profile-item {
+	float: left;
+	width: 512px;
+	height: 250px;
+	text-align: left;
+}
+.profile-img {
+    height: 250px;
+    width: 250px;
+	background-size: cover;
+	background-image: url(img/my-icon.jpg);
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    background-position: center;  /* 横長画像の左上を基準に表示 */
+    margin: 0 auto;
+}
+
+.name {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.skill {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.sentence {
+	font-size: 16px;
+	color: #000000;
+}
+
+.contact {
+	display: inline-block;
+	width: 800px;
+}
+
+.contact-title {
+	font-size: 32px;
+	color: #000000;
+	position: relative;
+    display: inline-block;
+	margin-bottom: 1em;
+}
+
+.contact-title:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #EC715F;/*線の色*/
+}
+.contact-text {
+	font-size: 16px;
+	color: #000000;
+	margin: 30px auto;
+}
+.contact-item {
+	float: left;
+	width: 400px;
+	text-align: left;
+}
+.adress {
+	font-size: 20px;
+	margin-left: 40%;
+	margin-bottom: 5px;
+}
+.mail {
+	margin-left: 40%;
+	margin-bottom: 20px;
+}
+.tel {
+	margin-left: 40%;
+}
+
+.sns-box {
+	margin-left: 20%;
+}
+.sns {
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.sns-icon>i {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	font-size: 16px;
+	color:#FAFAFA;
+	line-height: 60px;
+	text-align: center;
+}
+
+@media screen and (max-width:767px) {
+	header {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.headline {
+		width: 90%;
+		margin: auto 5%;
+	}
+	.logo {
+	}
+    .nav-list {
+    	display:none;
+    }
+    .nav-list-item {
+    	display:none;
+    }
+    .main-visual {
+    	width: 90%;
+		margin: auto 5%;
+		background-image: url(img/code.png);
+	    background-size: cover;
+	    background-position: center;
+    }
+    .main-visual-title {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .main-visual-text {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .backgray {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .portfolio {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .portfolio-title {
+    	font-size: 32px;
+    	color: #000000;
+    }
+    .portfolio-title:before {
+
+    }
+    .portfolio-text {
+
+    }
+    .img-box {
+
+    }
+    .img-box:nth-child(1) {
+    	width: 90%;
+		margin: auto 5%;
+		width: 300px;
+    	height: 250px;
+    	margin-bottom: 10px;
+    }
+    .img-box:nth-child(2) {
+    	width: 90%;
+		margin: auto 5%;
+		width: 300px;
+    	height: 250px;
+    	margin-bottom: 10px;
+    }
+    .img-box:nth-child(3) {
+    	width: 90%;
+		margin: auto 5%;
+		width: 300px;
+    	height: 250px;
+    	margin-bottom: 10px;
+    }
+    .img-box:nth-child(4) {
+    	display: none;
+    }
+    .img-box:nth-child(5) {
+    	display: none;
+    }
+    .img-box:nth-child(6) {
+    	display: none;
+    }
+    .backwhite {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .feature {
+    	width: 90%;
+		margin: auto 5%;
+		margin : 90px 0;
+    }
+    .feature-title {
+    	width: 90%;
+		margin: 30px 5%;
+    }
+    .feature-title:before {
+    }
+    .feature-text {
+    	width: 90%;
+		margin: auto 5%;
+		font-size: 16px;
+		color: #000000;
+
+    }
+    .strength {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .strength1>i {
+    	width: 90%;
+    	margin-top: 30px;
+    	margin-left: 5%;
+    	margin-right: 5%;
+    }
+    .strength2>i,.strength3>i {
+    	width: 90%;
+    	margin-top: 30px;
+    }
+    .profile {
+    	width: 90%;
+		margin: 90px 5%;
+    }
+    .profile-title {
+
+    }
+    .profile-title:before {
+
+    }
+    .profile-text {
+
+    }
+    .profile-item {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .profile-img {
+    }
+    .name {
+
+    }
+    .skill
+    .sentence {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .contact {
+    	width: 90%;
+		margin: auto 5%;
+		padding-top: 90px;
+    }
+    .contact-title {
+
+    }
+    .contact-title:before {
+
+    }
+    .contact-text {
+
+    }
+    .contact-item {
+    	width: 90%;
+		margin: auto 5%;
+    }
+    .adress {
+    	width: 90%;
+		margin: auto 5%;
+		text-align: center;
+    }
+    .mail {
+    	margin-left: 30%;
+    	margin-bottom: 20px;
+    }
+    .tel {
+    	margin-left: 30%;
+    	margin-bottom: 20px;
+    }
+    .sns-box
+    .sns {
+    	margin-left:30%;
+    	margin-bottom: 5px;
+    }
+    .sns-icon>i {
+    	margin-bottom: 90px;
+    }
+    footer {
+    	width: 90%;
+    	margin: auto 5%;
+    }
+}
